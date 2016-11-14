@@ -1,0 +1,4 @@
+
+gcc -fPIC -c -m64 -D_REENTRANT potential_nbody_ccc.c -o potential_nbody_ccc.o
+gcc -o64 -shared -all potential_nbody_ccc.o -o potential_nbody_ccc.so
+
